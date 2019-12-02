@@ -1,0 +1,7 @@
+Para compilar nos bastara con situarnos con la consola en esta carpeta y ejecutar la orden: make 
+
+Para ejecutar el programa deberemos ejecutar la orden:
+mpirun -n <Numero de Procesos a lanzar> ./Hypercube <Ruta al archivo donde se albergan los datos> <Numero de dimensiones del Hypercubo>
+
+OJO: Tenga en cuenta que el <Numero de Procesos a lanzar> debe ser exactamente 2 elevado al <Numero de dimensiones del Hypercubo> o el programa no se ejecutara
+
